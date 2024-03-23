@@ -1,6 +1,6 @@
 {
-  "name": "@abitsolihin/your-form-validation",
-  "version": "1.0.2",
+  "name": "your-form-validation",
+  "version": "1.0.5",
   "description": "```npm i your-form-validation```",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,8 @@
     "yup": "^1.4.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@abitsolihin"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {},
   "repository": {

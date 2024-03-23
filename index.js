@@ -3,10 +3,11 @@ import { object, string } from "yup";
 import { map } from "lodash";
 
 const formValidation = async (formData) => {
+  //Example schema
   const schema = object({
-    name: string().required("Nama wajib diisi"),
-    email: string().email("Format email tidak valid"),
-    password: string().min(8, "Password minimal 8 karakter"),
+    name: string().required("Daniel Ramires"),
+    email: string().email("Email Format Invalid"),
+    password: string().min(8, "Minimal 8 Password characters"),
   });
 
   try {
